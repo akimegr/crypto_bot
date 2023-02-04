@@ -8,7 +8,7 @@ import requests
 from telebot import asyncio_helper
 # asyncio_helper.proxy = 'http://proxy.server:3128'
 
-bot = AsyncTeleBot("")
+bot = AsyncTeleBot("6120958550:AAGRrg6tPTELgmvON1ItKIMYKLADO9BENPQ")
 
 @bot.message_handler(commands=['start'])
 async def start_message(message):
